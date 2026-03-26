@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="hi-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestKaro - AI Online Examination System | MCA Project</title>
+    
+    <!-- Hindi/Devanagari Font Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Mangal&display=swap" rel="stylesheet">
+    
+    <style>
+      /* Hindi Font Support */
+      * {
+        font-family: 'Noto Sans Devanagari', 'Mangal', 'Arial Unicode MS', 'Devanagari MT', sans-serif !important;
+      }
+      
+      body {
+        font-family: 'Noto Sans Devanagari', 'Mangal', 'Poppins', sans-serif !important;
+      }
+      
+      /* Input fields Hindi support */
+      input, textarea, select, button {
+        font-family: 'Noto Sans Devanagari', 'Mangal', 'Arial Unicode MS', sans-serif !important;
+      }
+      
+      /* Ensure Hindi text renders properly */
+      .hindi-text, [lang="hi"], [lang="hi-IN"] {
+        font-family: 'Noto Sans Devanagari', 'Mangal', sans-serif !important;
+        direction: ltr;
+        unicode-bidi: embed;
+      }
+      
+      @keyframes slide-up {
+        from { transform: translateY(100%); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .animate-slide-up {
+        animation: slide-up 0.3s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -426,20 +426,20 @@ export function LoginPage({ onBackToHome }: LoginPageProps) {
           </div>
 
           {/* Demo Credentials Box */}
-          {isLogin && (
+          { /* {isLogin && (
             <div className="mt-6 p-4 bg-gray-50 rounded-lg">
               <p className="text-xs text-gray-500 text-center mb-2">Demo Credentials:</p>
               <div className="grid grid-cols-3 gap-2 text-xs">
-                <div className="text-center">
+               <div className="text-center">
                   <p className="font-medium text-gray-700">Student</p>
                   <p className="text-gray-500">student@demo.com</p>
                   <p className="text-gray-500">student123</p>
-                </div>
+                </div> 
                 <div className="text-center">
                   <p className="font-medium text-gray-700">Admin</p>
                   <p className="text-gray-500">admin@demo.com</p>
                   <p className="text-gray-500">admin123</p>
-                </div>
+                </div> 
                 <div className="text-center">
                   <p className="font-medium text-gray-700">Institute</p>
                   <p className="text-gray-500">institute@demo.com</p>
@@ -447,7 +447,7 @@ export function LoginPage({ onBackToHome }: LoginPageProps) {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
 
           {/* Back to Home button is now at top left corner */}
         </Card>
